@@ -6,60 +6,208 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Milestone 1 | Module - 1</title>
     <link rel="shortcut icon" href="./image/client.png" type="image/x-icon">
+    <style>
+        body {
+            background-color: rgb(214, 214, 233);
+        }
+
+        .myDiv {
+            color: brown;
+            background-color: rgb(193, 214, 207);
+            width: 50%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .myDiv>header>img {
+            width: 100%;
+        }
+        footer{
+            background-color: rgb(26, 22, 22);
+            color: white;
+        }
+        nav{
+            text-align: center;
+        }
+        nav>a{
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        nav>a:hover{
+            color:red;
+        }
+    </style>
 </head>
+
 <body>
-    <a href="https://www.youtube.com/">Youtube</a><br>
-    <b>Lorem ipsum dolor sit amet.</b><br>
-    <p>Lorem <b>ipsum</b> <i>dolor</i> <strong>sit</strong> <em>amet</em> consectetur adipisicing elit. Reiciendis saepe at ea quasi aliquid soluta veritatis voluptate aliquam ab explicabo alias maxime perspiciatis cupiditate incidunt delectus eaque accusamus natus minus, hic enim sunt! Illo reiciendis quos ea eius ratione nobis, voluptatibus sit. Suscipit commodi possimus nobis, eius praesentium iure dolore.</p><hr width="90%" size="50" noshade>
+    <div class="myDiv">
+        <header>
+            <img src="./image/welcome.png" alt="">
+        </header>
 
-    <h1>This is heading 1</h1>
-    <h2>This is heading 2</h2>
-    <h3>This is heading 3</h3>
-    <h4>This is heading 4</h4>
-    <h5>This is heading 5</h5>
-    <h6>This is heading 6</h6><hr>
+        <main>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Service</a>
+                <a href="#">Project</a>
+                <a href="#">Contact</a>
+            </nav><hr width="90%" size="2" noshade>
+            <br>
+            <b>Lorem ipsum dolor sit amet.</b><br>
+            <p>Lorem <b>ipsum</b> <i>dolor</i> <strong>sit</strong> <em>amet</em> <small>consectetur</small>
+                <strike>adipisicing</strike> elit. <u>Reiciendis</u> saepe at ea quasi aliquid soluta veritatis
+                voluptate
+                aliquam ab explicabo alias maxime perspiciatis cupiditate incidunt delectus eaque accusamus natus minus,
+                hic
+                enim sunt! Illo reiciendis quos ea eius ratione nobis, voluptatibus sit. Suscipit commodi possimus
+                nobis,
+                eius praesentium iure dolore.
+            </p>
+            
 
-    <form action="#" method="get">
-        Input type "text": <input type="text" name="" id=""><br><br>
-        Input type "email": <input type="email" name="" id=""><br><br>
-        Input type "password": <input type="password" name="" id=""><br><br>
-        Input type "number": <input type="number" name="" id=""><br><br>
-        Input type "file": <input type="file" name="" id=""><br><br>
-        Input type "button": <input type="button" value="Check Me!"><br><br>
-        Input type "range": <input type="range" name="" id=""><br><br>
-        Input type "color": <input type="color" name="" id=""> <br><br>
-        Input type "month": <input type="month" name="" id=""><br><br>
-        Input type "date": <input type="date" name="" id=""><br><br>
-        Input type "time": <input type="time" name="" id=""><br><br>
-        Input type "week": <input type="week" name="" id=""> <hr>
-        
-        Radio button: <br>
-        <input type="radio" name="pet-animal" id="dog" value="dog">Dog <br>
-        <input type="radio" name="pet-animal" id="cat" value="cat">Cat <br>
-        <input type="radio" name="pet-animal" id="cow" value="cow">Cow <br>
-        <input type="radio" name="pet-animal" id="goat" value="goat">Goat <hr>
+            <h1>This is heading 1</h1>
+            <h2>This is heading 2</h2>
+            <h3>This is heading 3</h3>
+            <h4>This is heading 4</h4>
+            <h5>This is heading 5</h5>
+            <h6>This is heading 6</h6>
+            <hr>
 
-        Checkbox: <br>
-        <input type="checkbox" name="pet-animal" id="" value=""> Dog <br>
-        <input type="checkbox" name="pet-animal" id="cat" value="cat"> Cat <br>
-        <input type="checkbox" name="pet-animal" id="cow" value="cow"> Cow <br>
-        <input type="checkbox" name="pet-animal" id="goat" value="goat"> Goat <hr>
+            <form action="#" method="get">
+                Input type "text": <input type="text" name="" id=""><br><br>
+                Input type "email": <input type="email" name="" id=""><br><br>
+                Input type "password": <input type="password" name="" id=""><br><br>
+                Input type "number": <input type="number" name="" id=""><br><br>
+                Input type "file": <input type="file" name="" id=""><br><br>
+                Input type "button": <input type="button" value="Check Me!"><br><br>
+                Input type "range": <input type="range" name="" id=""><br><br>
+                Input type "color": <input type="color" name="" id=""> <br><br>
+                Input type "month": <input type="month" name="" id=""><br><br>
+                Input type "date": <input type="date" name="" id=""><br><br>
+                Input type "time": <input type="time" name="" id=""><br><br>
+                Input type "week": <input type="week" name="" id="">
+                <hr>
 
-        
+                Radio button: <br>
+                <input type="radio" name="pet-animal" id="dog" value="dog">Dog <br>
+                <input type="radio" name="pet-animal" id="cat" value="cat">Cat <br>
+                <input type="radio" name="pet-animal" id="cow" value="cow">Cow <br>
+                <input type="radio" name="pet-animal" id="goat" value="goat">Goat
+                <hr>
 
-        <hr>
-        <input type="submit" value="Submit">
-        <input type="reset" value="Reset">
-        
+                Checkbox: <br>
+                <input type="checkbox" name="pet-animal" id="" value=""> Dog <br>
+                <input type="checkbox" name="pet-animal" id="cat" value="cat"> Cat <br>
+                <input type="checkbox" name="pet-animal" id="cow" value="cow"> Cow <br>
+                <input type="checkbox" name="pet-animal" id="goat" value="goat"> Goat
+                <hr>
 
-        
+                <hr>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+                <hr>
 
-    </form>
+                <h2>Unordered List</h2>
+                <Ul>
+                    <li>One</li>
+                    <li>Two</li>
+                    <li>Three</li>
+                </Ul>
+
+                <h2>Ordered List</h2>
+                <ol>
+                    <li>One</li>
+                    <li>Two</li>
+                    <li>Three</li>
+                </ol>
+                <ol start="5">
+                    <li>One</li>
+                    <li>Two</li>
+                    <li>Three</li>
+                </ol>
+                <ol type="A">
+                    <li>One</li>
+                    <li>Two</li>
+                    <li>Three</li>
+                </ol>
+                <ol type="a">
+                    <li>One</li>
+                    <li>Two</li>
+                    <li>Three</li>
+                </ol>
+                <ol type="I">
+                    <li>One</li>
+                    <li>Two</li>
+                    <li>Three</li>
+                </ol>
+                <ol type="i">
+                    <li>One</li>
+                    <li>Two</li>
+                    <li>Three</li>
+                </ol>
+                <ol type="A" start="5">
+                    <li>One</li>
+                    <li>Two</li>
+                    <li>Three</li>
+                </ol>
+
+                <h2>Menu Item</h2>
+                <menu>
+                    <li type="disc">One</li>
+                    <li type="circle">Two</li>
+                    <li type="square">Three</li>
+                </menu>
+                <hr>
+
+                <select name="address" id="address">
+                    <option value="dhaka">Dhaka</option>
+                    <option value="lalmonirhat">Lalmonirhat</option>
+                    <option value="rangpur">Rangpur</option>
+                </select>
+                <hr>
+
+                <table border="4" width="50%">
+                    <tr>
+                        <th>SL</th>
+                        <th>Name</th>
+                        <th>Address</th>
+                    </tr>
+                    <tr>
+                        <td>01</td>
+                        <td>Shamim</td>
+                        <td>Lalmonirhat</td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td>Shahin</td>
+                        <td>Lalmonirhat</td>
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td>Snigdha</td>
+                        <td>Rangpur</td>
+                    </tr>
+                    <tr>
+                        <td>04</td>
+                        <td>Sneha</td>
+                        <td>Rangpur</td>
+                    </tr>
+                </table><br>
+            </form>
+        </main>
+        <footer>
+            <br>
+            <center>&copy;Md. Shamim Sarker | All rights reserved | 2022</center><br>
+        </footer>
+    </div>
 </body>
+
 </html>
