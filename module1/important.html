@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Title</title>
+    <style>
+      a {
+        display: inline-block;
+        text-decoration: none;
+      }
+
+      #cat {
+        width: 100px;
+        height: 100px;
+      }
+
+      legend {
+        font-size: 35px;
+        font-weight: bold;
+        color: red;
+      }
+
+      .block {
+        display: block;
+        margin-top: 5px;
+      }
+
+      #accustomed {
+        font-size: 10px;
+        background-color: black;
+        color: white;
+      }
+
+      table {
+        width: 50%;
+      }
+
+      table,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+
+      .bold {
+        font-weight: bold;
+        text-align: center;
+      }
+			footer {
+				text-align: center;
+				color: white;
+				background-color: black;
+				margin-top: 10px;
+				padding: 10px;
+			}
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <fieldset>
+        <legend>Heading Tags</legend>
+        <h1>h1 Heading Tag</h1>
+        <h2>h2 Heading Tag</h2>
+        <h3>h3 Heading Tag</h3>
+      </fieldset>
+
+      <fieldset>
+        <legend>Paragraph, List Etc.</legend>
+        <p>We are <span id="accustomed">accustomed</span> to having fully developed roads in Dhaka only after all the buildings in an area have been constructed – whereas in developed nations, the roads are built first. <a href="#">See more....</a></p>
+
+        <img id="cat" src="https://live.staticflickr.com/2905/14375907663_877c36292e_b.jpg">
+
+        <ul>
+          <li>List Item One</li>
+          <li>List Item Two</li>
+          <li>List Item Three</li>
+        </ul>
+      </fieldset>
+
+      <fieldset>
+        <legend>Form Details</legend>
+        <form action="#">
+          <label class="block" for="email">Your Email:</label>
+          <input class="block" type="email" name="email" id="email">
+          <label class="block" for="about">About Yourself:</label>
+          <textarea class="block" name="about" id="about"></textarea>
+          <label class="block">Select your gender:</label>
+          <label><input type="radio" name="gender" value="male" id="male"> Male</label>
+          <label><input type="radio" name="gender" value="female"> Female</label>
+          <labe class="block">Select your hobbies:</labe>
+          <label><input type="checkbox" name="hobby" value="football">Football</label>
+          <label><input type="checkbox" name="hobby" value="cricket">Cricket</label>
+          <label><input type="checkbox" name="hobby" value="hocky">Hocky</label>
+          <label class="block">Select your district: </label>
+          <select class="block">
+            <option>Lalmonirhat</option>
+            <option>Rangpur</option>
+            <option>Dhaka</option>
+          </select>
+          <span class="block"></span>
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+        </form>
+      </fieldset>
+
+      <fieldset>
+        <legend>Table Details</legend>
+        <table>
+          <tr class="bold">
+            <td>SL</td>
+            <td>NAME</td>
+            <td>DOB</td>
+          </tr>
+          <tr>
+            <td>01</td>
+            <td>Shamim</td>
+            <td>1990</td>
+          </tr>
+          <tr>
+            <td>02</td>
+            <td>Snigdha</td>
+            <td>1998</td>
+          </tr>
+          <tr>
+            <td>03</td>
+            <td>Sneha</td>
+            <td>2007</td>
+          </tr>
+        </table>
+      </fieldset>
+    </div>
+		<footer>&copy Md. Shamim Sarker. All rights reserved.</footer>
+  </body>
+
+</html>
