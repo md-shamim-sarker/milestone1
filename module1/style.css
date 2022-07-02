@@ -1,0 +1,68 @@
+body {
+    width: 50%;
+    margin: auto;
+}
+#banner {
+    width: 100%;
+    border: 1px solid rgb(104, 97, 97);
+    border-radius: 10px;
+    margin-top: 5px;
+    box-shadow: 5px 5px 5px rgb(202, 198, 198);
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+#cat {
+    width: 100px;
+    height: 100px;
+}
+
+legend {
+    font-size: 35px;
+    font-weight: bold;
+    color: red;
+}
+
+.block {
+    display: block;
+    margin-top: 5px;
+}
+
+#accustomed {
+    font-size: 10px;
+    background-color: black;
+    color: white;
+}
+
+table {
+    width: 80%;
+}
+
+table,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.bold {
+    font-weight: bold;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        width: 100%;
+        padding: 10px;
+    }
+}
